@@ -3,23 +3,23 @@
 	"id": "nethereu",
 	"version": "${version}",
 	"name": "Nether EU",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod spices up Minecraft Nether Update, but keep it vanilla-like",
 	"authors": [
-		"Me!"
+		"OJarrisonn_"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/OJarrisonn/Nether-Extra-Update"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/nethereu/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ojarrisonn.nethereu.ExampleMod"
+			"com.ojarrisonn.nethereu.NetherEUMod"
 		],
 		"fabric-datagen": [
-			"com.ojarrisonn.nethereu.ExampleModDataGenerator"
+			"com.ojarrisonn.nethereu.NetherEUModDataGenerator"
 		]
 	},
 	"mixins": [
