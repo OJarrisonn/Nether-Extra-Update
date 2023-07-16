@@ -37,11 +37,13 @@
   A berry dropped from Warped Berry Bush
 - [ ]  **Soul Blaze Rod**:
   A rod similar to Blaze Rod, but hotter
+- [ ]  **Soul Blaze Powder**:
+  A rod similar to Blaze Powder, but hotter
 - [ ]  **Black Quartz**:
   The black version of Quartz
 - [ ] **Nickel Ingot & Nugget**:
   The Nether equivalent of Iron
-- [ ] **Ruby Ingot & Nugget**:
+- [ ] **Ruby**:
   The Nether quivalent of Diamond
 
 
