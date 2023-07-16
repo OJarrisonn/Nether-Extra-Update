@@ -35,6 +35,14 @@
   Every mined block is dropped in it’s smelted version
 - [ ]  **Warped Berry**:
   A berry dropped from Warped Berry Bush
+- [ ]  **Soul Blaze Rod**:
+  A rod similar to Blaze Rod, but hotter
+- [ ]  **Black Quartz**:
+  The black version of Quartz
+- [ ] **Nickel Ingot & Nugget**:
+  The Nether equivalent of Iron
+- [ ] **Ruby Ingot & Nugget**:
+  The Nether quivalent of Diamond
 
 
 ## Mobs
@@ -45,8 +53,10 @@
   The wandering soul of a piglin
 - [ ]  **Crimson Mooshroom**:
   Crimson version of a mooshroom
-- [ ]  **Warped Mooshroom**: 
-Spawns when a crimson mooshroom is stroke by a lightning bolt
+- [ ]  **Warped Mooshroom**:
+  Spawns when a crimson mooshroom is stroke by a lightning bolt
+- [ ] **Piglin Merchant**:
+  A peaceful Piglin with interesting trades 
 
 
 ## Gear
