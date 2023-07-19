@@ -1,5 +1,6 @@
 package com.ojarrisonn.nethereu.data;
 
+import com.ojarrisonn.nethereu.block.ModBlocks;
 import com.ojarrisonn.nethereu.tags.ModBlockTags;
 import com.ojarrisonn.nethereu.tags.ModItemTags;
 import com.ojarrisonn.nethereu.item.ModItems;
@@ -19,7 +20,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        copy(ModBlockTags.BLAZING_STEMS, ModItemTags.BLAZING_STEMS);
+        getOrCreateTagBuilder(ModItemTags.BLAZING_STEMS)
+                .add(ModBlocks.BLAZING_STEM.asItem())
+                .add(ModBlocks.BLAZING_HYPHAE.asItem())
+                .add(ModBlocks.STRIPPED_BLAZING_HYPHAE.asItem())
+                .add(ModBlocks.STRIPPED_BLAZING_STEM.asItem());
 
         getOrCreateTagBuilder(ModItemTags.GEMS).add(ModItems.RUBY);
         getOrCreateTagBuilder(ModItemTags.RUBIES).add(ModItems.RUBY);
@@ -28,7 +33,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModItemTags.NICKEL_INGOTS).add(ModItems.NICKEL_INGOT);
         getOrCreateTagBuilder(ModItemTags.RAW_NICKEL_ORES).add(ModItems.RAW_NICKEL);
 
-        copy(BlockTags.LOGS, ItemTags.LOGS);
+        getOrCreateTagBuilder(ItemTags.LOGS).addTag(ModItemTags.BLAZING_STEMS);
 
     }
 }

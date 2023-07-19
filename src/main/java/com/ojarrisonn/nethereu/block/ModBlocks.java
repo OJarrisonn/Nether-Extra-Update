@@ -1,6 +1,7 @@
 package com.ojarrisonn.nethereu.block;
 
 import com.ojarrisonn.nethereu.NetherEUMod;
+import com.ojarrisonn.nethereu.world.ModConfiguredFeatures;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -70,7 +71,7 @@ public class ModBlocks {
 
     // Blazing wood set ================================================================================================
     public static final Block BLAZING_NYLIUM = registerBlock("blazing_nylium", new NyliumBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_NYLIUM)));
-    public static final Block BLAZING_FUNGUS = registerBlock("blazing_fungus", new FungusBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_FUNGUS).nonOpaque(), TreeConfiguredFeatures.CRIMSON_FUNGUS_PLANTED, BLAZING_NYLIUM));
+    public static final Block BLAZING_FUNGUS = registerBlock("blazing_fungus", new FungusBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_FUNGUS).nonOpaque(), ModConfiguredFeatures.BLAZING_FUNGUS_PLANTED, BLAZING_NYLIUM));
     public static final Block BLAZING_WART_BLOCK = registerBlock("blazing_wart_block", new Block(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
     public static final Block BLAZING_STEM = registerBlock("blazing_stem", new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM)));
     public static final Block STRIPPED_BLAZING_STEM = registerBlock("stripped_blazing_stem", new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CRIMSON_STEM)));

@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-19T14:56:55.2662024	Nether EU/Model Definitions
+// 1.20.1	2023-07-19T16:41:56.9156083	Nether EU/Model Definitions
 c6922cbc5ff2f376207c22a224303d8eb73ec680 assets\nethereu\models\block\chiseled_black_quartz_block.json
 460376509493e89624417a8c8ec3a54224f8fdef assets\nethereu\blockstates\soul_stone.json
 e9865b55b882ed32e1a0274bb0f9d6150ffa025e assets\nethereu\blockstates\raw_nickel_block.json
@@ -56,8 +56,8 @@ ca2c6baf6c6612c8080cf1193128f2c772d93160 assets\nethereu\models\item\stripped_bl
 433a0ddbdc8878e6b78ae16801401b2c1ed0d423 assets\nethereu\blockstates\nickel_block.json
 fae199759cb1f2c9a44a544532ca9694de41fa8a assets\nethereu\models\block\stripped_blazing_stem_horizontal.json
 a6c086de212b44f947257d09496fbacc696989d8 assets\nethereu\models\block\nickel_block.json
-613cf355a650ef49ef176f0a1a8a27edad212360 assets\nethereu\blockstates\smooth_black_quartz.json
 b539b6121b2ae0d5ba0599698536d41566d32531 assets\nethereu\blockstates\chiseled_black_quartz_block.json
+613cf355a650ef49ef176f0a1a8a27edad212360 assets\nethereu\blockstates\smooth_black_quartz.json
 a22667bd6400385563463fa26a267f281f6be2d9 assets\nethereu\models\block\blazing_fungus.json
 3536a1a5a4c0e8b8b82fe43ad681c7266f4acd12 assets\nethereu\blockstates\blazing_hyphae.json
 bc179d24356f84353f2ca1ce20baad49423bb036 assets\nethereu\models\item\black_quartz.json
