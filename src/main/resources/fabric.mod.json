@@ -18,6 +18,9 @@
 		"main": [
 			"com.ojarrisonn.nethereu.NetherEUMod"
 		],
+		"client": [
+			"com.ojarrisonn.nethereu.NetherEUModClient"
+		],
 		"fabric-datagen": [
 			"com.ojarrisonn.nethereu.NetherEUModDataGenerator"
 		]
