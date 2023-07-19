@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nickel_ingot",
+  "key": {
+    "#": {
+      "item": "nethereu:nickel_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "nethereu:nickel_ingot"
+  },
+  "show_notification": true
+}

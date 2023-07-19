@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "nethereu:block/black_quartz_pillar_top",
+    "side": "nethereu:block/black_quartz_pillar"
+  }
+}

@@ -1,5 +1,6 @@
 package com.ojarrisonn.nethereu;
 
+import com.ojarrisonn.nethereu.block.ModBlocks;
 import com.ojarrisonn.nethereu.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class NetherEUMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

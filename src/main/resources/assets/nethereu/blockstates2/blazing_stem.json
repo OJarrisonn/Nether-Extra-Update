@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nethereu:block/blazing_stem_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nethereu:block/blazing_stem"
+    },
+    "axis=z": {
+      "model": "nethereu:block/blazing_stem_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -33,18 +33,18 @@
   Makes nearby piglin peaceful when on inventory
 - [ ]  **Autosmelt Enchented Book**:
   Every mined block is dropped in it’s smelted version
-- [ ]  **Warped Berry**:
+- [x]  **Warped Berry**:
   A berry dropped from Warped Berry Bush
 - [ ]  **Soul Blaze Rod**:
   A rod similar to Blaze Rod, but hotter
 - [ ]  **Soul Blaze Powder**:
   A rod similar to Blaze Powder, but hotter
-- [ ]  **Black Quartz**:
+- [x]  **Black Quartz**:
   The black version of Quartz
-- [ ] **Nickel Ingot & Nugget**:
+- [x] **Nickel Ingot Nugget & Raw**:
   The Nether equivalent of Iron
-- [ ] **Ruby**:
-  The Nether quivalent of Diamond
+- [x] **Ruby**:
+  The Nether equivalent of Diamond
 
 
 ## Mobs

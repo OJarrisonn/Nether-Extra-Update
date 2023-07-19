@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "nethereu:block/blazing_stem_top",
+    "side": "nethereu:block/blazing_stem"
+  }
+}

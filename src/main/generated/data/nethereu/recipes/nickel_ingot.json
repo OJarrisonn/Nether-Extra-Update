@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nethereu:nickel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "nethereu:nickel_ingot"
+  }
+}
