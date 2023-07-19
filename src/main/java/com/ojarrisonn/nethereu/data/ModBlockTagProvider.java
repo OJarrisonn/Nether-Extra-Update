@@ -27,5 +27,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.LOGS).addTag(ModBlockTags.BLAZING_STEMS);
 
         getOrCreateTagBuilder(BlockTags.PLANKS).add(ModBlocks.BLAZING_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.PIGLIN_REPELLENTS).add(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
     }
 }

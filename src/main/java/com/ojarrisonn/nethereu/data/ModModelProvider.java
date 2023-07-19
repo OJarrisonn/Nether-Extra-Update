@@ -28,6 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         generator.registerNetherrackBottomCustomTop(ModBlocks.BLAZING_NYLIUM);
         generator.registerTintableCross(ModBlocks.BLAZING_FUNGUS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        generator.registerTintableCross(ModBlocks.INCANDESCENT_BLAZING_FUNGUS, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_BLOCK);
         generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_BRICKS);

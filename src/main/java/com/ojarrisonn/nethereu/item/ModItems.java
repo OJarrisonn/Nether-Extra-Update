@@ -65,6 +65,7 @@ public class ModItems {
         entries.add(ModBlocks.BLAZING_NYLIUM);
         entries.add(ModBlocks.BLAZING_WART_BLOCK);
         entries.add(ModBlocks.BLAZING_FUNGUS);
+        entries.add(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
         entries.add(ModBlocks.BLAZING_STEM);
     }
 

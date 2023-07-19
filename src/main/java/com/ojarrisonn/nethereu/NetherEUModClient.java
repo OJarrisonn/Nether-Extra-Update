@@ -9,5 +9,6 @@ public class NetherEUModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLAZING_FUNGUS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.INCANDESCENT_BLAZING_FUNGUS, RenderLayer.getCutout());
     }
 }
