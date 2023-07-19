@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "nethereu:block/incandescent_blazing_fungus"
+  }
+}
