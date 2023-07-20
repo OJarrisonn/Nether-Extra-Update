@@ -67,6 +67,10 @@ public class ModItems {
         entries.add(ModBlocks.BLAZING_FUNGUS);
         entries.add(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
         entries.add(ModBlocks.BLAZING_STEM);
+
+        entries.add(ModBlocks.BLACK_QUARTZ_ORE);
+        entries.add(ModBlocks.NICKEL_ORE);
+        entries.add(ModBlocks.RUBY_ORE);
     }
 
     private static Item registerItem(String name, Item item) {

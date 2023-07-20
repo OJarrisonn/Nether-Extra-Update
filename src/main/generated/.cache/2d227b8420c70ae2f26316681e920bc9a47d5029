@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-19T17:35:20.5908857	Nether EU/Model Definitions
+// 1.20.1	2023-07-20T09:15:46.563366	Nether EU/Model Definitions
 c6922cbc5ff2f376207c22a224303d8eb73ec680 assets\nethereu\models\block\chiseled_black_quartz_block.json
 460376509493e89624417a8c8ec3a54224f8fdef assets\nethereu\blockstates\soul_stone.json
 e9865b55b882ed32e1a0274bb0f9d6150ffa025e assets\nethereu\blockstates\raw_nickel_block.json
@@ -13,6 +13,7 @@ bb55250cd9f3792ce2435106ffb464dc25a2d8c3 assets\nethereu\models\item\ruby.json
 620f2b1b60bf3dfd935549628bdde31f467f90ac assets\nethereu\models\item\black_quartz_block.json
 bce9d84a99a4faccacdf5cede69424a9348b11e5 assets\nethereu\models\item\nickel_block.json
 947ade7d4709c3c4a4712d28ef279776eda13d26 assets\nethereu\models\item\incandescent_blazing_fungus.json
+f4d37a165316b75d813936b73a7d84cbb5d9dd96 assets\nethereu\blockstates\black_quartz_ore.json
 f7724a1394e1dfa8a60dc1533fd0e0f722f09173 assets\nethereu\blockstates\ruby_block.json
 8900bd9df4882ea7c880ee397bf7a4e32fb29fc1 assets\nethereu\models\block\black_quartz_block.json
 7967e4a09bee7bb0625198d4edbb9680b4a4fb7d assets\nethereu\blockstates\blazing_wart_block.json
@@ -23,6 +24,7 @@ f2f2402897cadf01f48a7e13802bd6fa4810b44d assets\nethereu\models\item\blazing_hyp
 e0d46670c7ce5e57a3c1f564080aa6c79caec0dd assets\nethereu\models\item\raw_nickel.json
 8516baab1d091f67a84ce5019cae92e171ac177e assets\nethereu\models\block\marble.json
 a33099b7fa41ac2eb2ac312fc27584d935ec7524 assets\nethereu\blockstates\incandescent_blazing_fungus.json
+26e7e45096b50d18359b89295c67f58ab403ac0d assets\nethereu\models\block\black_quartz_ore.json
 a258098fc4e4319bdf23975d86f2193dc0b67197 assets\nethereu\models\item\nickel_ore.json
 9d906c0ccb6459a9f4d1135e465143e97871d706 assets\nethereu\blockstates\stripped_blazing_stem.json
 c4edc7720e7b4bf45b814b29ec187040d39d9ea1 assets\nethereu\models\block\blazing_wart_block.json
@@ -51,6 +53,7 @@ af298b0c5bca448a303e2477ac5a0b485263810e assets\nethereu\models\block\blazing_ny
 0f0022c85de6211889a182a3fceb6f41bb7f6270 assets\nethereu\models\item\blazing_wart_block.json
 2a976e7bddbdc4ba4f99d329863d0847a48c62ad assets\nethereu\models\item\blazing_fungus.json
 cdd1deff7b9d6e0f74733040ad942722c2da839f assets\nethereu\blockstates\stripped_blazing_hyphae.json
+97cb292415804129b399186a37f3ce989fdfe38d assets\nethereu\models\item\black_quartz_ore.json
 ca2c6baf6c6612c8080cf1193128f2c772d93160 assets\nethereu\models\item\stripped_blazing_stem.json
 6051af579aaebb189e0db836f60d5a9a5117da1d assets\nethereu\models\block\ruby_block.json
 43c7cca2ff8cb36288d781d0c66fd26c428ec5a1 assets\nethereu\models\item\ruby_ore.json

@@ -54,6 +54,8 @@ public class ModBlocks {
                     .mapColor(MapColor.DEEPSLATE_GRAY)
                     .strength(0.9f)));
 
+    public static final Block BLACK_QUARTZ_ORE = registerBlock("black_quartz_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
 
 
     // Marble set ======================================================================================================

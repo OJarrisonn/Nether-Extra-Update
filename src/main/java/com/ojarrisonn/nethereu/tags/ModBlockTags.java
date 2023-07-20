@@ -9,9 +9,7 @@ import net.minecraft.util.Identifier;
 public class ModBlockTags {
     public static final TagKey<Block> BLAZING_STEMS = register("blazing_stems");
 
-    public static final TagKey<Block> RUBY_NETHER_ORES = registerCommon("ruby_nether_ores");
     public static final TagKey<Block> RUBY_ORES = registerCommon("ruby_ores");
-    public static final TagKey<Block> NICKEL_NETHER_ORES = registerCommon("nickel_nether_ores");
     public static final TagKey<Block> NICKEL_ORES = registerCommon("nickel_ores");
     public static final TagKey<Block> RUBY_BLOCKS = registerCommon("ruby_blocks");
     public static final TagKey<Block> NICKEL_BLOCKS = registerCommon("nickel_blocks");
