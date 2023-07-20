@@ -1,6 +1,21 @@
-// 1.20.1	2023-07-19T17:35:20.5908857	Nether EU/Tags for minecraft:block
-8c2e692bbdada317e3b709d9f64b5e1de81ef3c9 data\minecraft\tags\blocks\piglin_repellents.json
-06a6d8d777818f406ce6a3aa2b570781417ba692 data\minecraft\tags\blocks\planks.json
-f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\nethereu\tags\blocks\blazing_stems.json
+// 1.20.1	2023-07-20T14:33:20.8094674	Nether EU/Tags for minecraft:block
+8b9d01dad0ebe554278b85fee7555626bb470043 data\minecraft\tags\blocks\needs_iron_tool.json
+8c2e692bbdada317e3b709d9f64b5e1de81ef3c9 data\minecraft\tags\blocks\replaceable.json
+ab96f983167d6792eea267fc27c4173d6e837819 data\minecraft\tags\blocks\mineable\pickaxe.json
+3012565617ec5401417f1379390f326440e18a68 data\c\tags\blocks\nickel_ores.json
+d6f8ae7749801c6526c66005772a2012e57c6274 data\c\tags\blocks\ruby_blocks.json
 28837b861c6ccf3451c203e78eff421dc28d346e data\minecraft\tags\blocks\nylium.json
 4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\blocks\logs.json
+8c2e692bbdada317e3b709d9f64b5e1de81ef3c9 data\minecraft\tags\blocks\replaceable_by_trees.json
+8c2e692bbdada317e3b709d9f64b5e1de81ef3c9 data\minecraft\tags\blocks\piglin_repellents.json
+ce0ed965ab7e94e16bb19d7019e55ec3c44f7941 data\minecraft\tags\blocks\needs_stone_tool.json
+06a6d8d777818f406ce6a3aa2b570781417ba692 data\minecraft\tags\blocks\planks.json
+06a1636798dd3a16d5b7cfe4aee15e04b9057854 data\minecraft\tags\blocks\beacon_base_blocks.json
+f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\nethereu\tags\blocks\blazing_stems.json
+3f834d5342d95877340e12a4cd39731f72c1f993 data\minecraft\tags\blocks\wart_blocks.json
+dd55c70a309c17ffea0c1e75f19e8c2899b9fb90 data\c\tags\blocks\nickel_blocks.json
+426741a19c531fdc9a135405d7ff6b2ec800fc14 data\minecraft\tags\blocks\soul_fire_base_blocks.json
+426741a19c531fdc9a135405d7ff6b2ec800fc14 data\minecraft\tags\blocks\soul_speed_blocks.json
+87b4dfdac877aab8227fa1d7371bbbc6c54c7fa2 data\c\tags\blocks\ruby_ores.json
+d3e2f1572459110c61015e5c0b7598f3d91f374d data\c\tags\blocks\raw_nickel_blocks.json
+f6b196fcdfb8d9faae2472ff188caa8ff18d6eba data\minecraft\tags\blocks\base_stone_nether.json

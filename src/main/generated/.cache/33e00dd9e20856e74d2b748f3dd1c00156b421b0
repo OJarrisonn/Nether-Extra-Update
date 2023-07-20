@@ -1,8 +1,14 @@
-// 1.20.1	2023-07-19T17:35:20.5898857	Nether EU/Tags for minecraft:item
+// 1.20.1	2023-07-20T14:33:20.8074667	Nether EU/Tags for minecraft:item
+f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\nethereu\tags\items\blazing_stems.json
+dd55c70a309c17ffea0c1e75f19e8c2899b9fb90 data\c\tags\items\nickel_blocks.json
+54626453e0532f80b25be316e431a3977ecb3f2b data\minecraft\tags\items\piglin_loved.json
+87b4dfdac877aab8227fa1d7371bbbc6c54c7fa2 data\c\tags\items\ruby_ores.json
+d6f8ae7749801c6526c66005772a2012e57c6274 data\c\tags\items\ruby_blocks.json
+3012565617ec5401417f1379390f326440e18a68 data\c\tags\items\nickel_ores.json
 ff3ab00cd0d9594a0d7637e4a07e0c8c5c0a794a data\c\tags\items\gems.json
 7fdbe16a5f08ece42d8a8ac1eaad368aff7b9903 data\c\tags\items\nickel_nuggets.json
-f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\c\tags\items\blazing_stems.json
 ff3ab00cd0d9594a0d7637e4a07e0c8c5c0a794a data\c\tags\items\rubies.json
 6ba04d2a791b7b19d8b43d618768b2e58b8bcafe data\c\tags\items\raw_nickel_ores.json
 96da79cdaeeaa7b0ecdb804759f7275754e06a1e data\c\tags\items\nickel_ingots.json
-0f4a882c791c29921916dae79720b0b750a3edf4 data\minecraft\tags\items\logs.json
+4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\items\logs.json
+4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\items\non_flammable_wood.json
