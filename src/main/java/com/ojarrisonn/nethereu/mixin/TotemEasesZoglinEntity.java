@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 // TODO: Make them forget you
 @Mixin(ZoglinEntity.class)
-public class TotemEasesZoglin {
+public class TotemEasesZoglinEntity {
     @Inject(method = "shouldAttack", at = @At("HEAD"), cancellable = true)
     private void injectShouldAttack(LivingEntity entity, CallbackInfoReturnable<Boolean> info) {
         if (entity.getType() == EntityType.PLAYER) {
