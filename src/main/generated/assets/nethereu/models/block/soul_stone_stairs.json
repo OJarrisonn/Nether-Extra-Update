@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "nethereu:block/soul_stone",
+    "side": "nethereu:block/soul_stone",
+    "top": "nethereu:block/soul_stone"
+  }
+}

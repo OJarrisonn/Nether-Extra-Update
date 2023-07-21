@@ -28,10 +28,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         addBlocksToTag(BlockTags.WART_BLOCKS, ModBlocks.BLAZING_WART_BLOCK);
 
-        addBlocksToTag(BlockTags.REPLACEABLE, ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
-        addBlocksToTag(BlockTags.REPLACEABLE_BY_TREES, ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
+        addBlocksToTag(BlockTags.REPLACEABLE,
+                ModBlocks.INCANDESCENT_BLAZING_FUNGUS,
+                ModBlocks.BLAZING_ROOTS);
+
+        addBlocksToTag(BlockTags.REPLACEABLE_BY_TREES,
+                ModBlocks.INCANDESCENT_BLAZING_FUNGUS,
+                ModBlocks.BLAZING_ROOTS);
 
         addBlocksToTag(BlockTags.PLANKS, ModBlocks.BLAZING_PLANKS);
+
+        addBlocksToTag(BlockTags.WOODEN_SLABS, ModBlocks.BLAZING_SLAB);
+        addBlocksToTag(BlockTags.SLABS, ModBlocks.BLAZING_SLAB);
+        addBlocksToTag(BlockTags.WOODEN_STAIRS, ModBlocks.BLAZING_STAIRS);
+        addBlocksToTag(BlockTags.STAIRS, ModBlocks.BLAZING_STAIRS);
+        addBlocksToTag(BlockTags.WOODEN_FENCES, ModBlocks.BLAZING_FENCE);
+        addBlocksToTag(BlockTags.FENCES, ModBlocks.BLAZING_FENCE);
 
         addBlocksToTag(BlockTags.PIGLIN_REPELLENTS, ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
 
@@ -56,22 +68,35 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.RUBY_BLOCK,
                 ModBlocks.RUBY_ORE,
                 ModBlocks.SOUL_STONE,
+                ModBlocks.SOUL_STONE_STAIRS,
+                ModBlocks.SOUL_STONE_SLAB,
                 ModBlocks.MARBLE,
+                ModBlocks.MARBLE_STAIRS,
+                ModBlocks.MARBLE_SLAB,
+                ModBlocks.MARBLE_WALL,
                 ModBlocks.POLISHED_MARBLE,
-                ModBlocks.BLACK_QUARTZ_ORE,
-                ModBlocks.BLACK_QUARTZ_BLOCK,
-                ModBlocks.BLACK_QUARTZ_PILLAR,
-                ModBlocks.BLACK_QUARTZ_BRICKS,
-                ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK,
-                ModBlocks.SMOOTH_BLACK_QUARTZ);
-
-        addBlocksToTag(BlockTags.NEEDS_STONE_TOOL,
+                ModBlocks.POLISHED_MARBLE_STAIRS,
+                ModBlocks.POLISHED_MARBLE_SLAB,
                 ModBlocks.BLACK_QUARTZ_ORE,
                 ModBlocks.BLACK_QUARTZ_BLOCK,
                 ModBlocks.BLACK_QUARTZ_PILLAR,
                 ModBlocks.BLACK_QUARTZ_BRICKS,
                 ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK,
                 ModBlocks.SMOOTH_BLACK_QUARTZ,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
+
+        addBlocksToTag(BlockTags.NEEDS_STONE_TOOL,
+                ModBlocks.BLACK_QUARTZ_ORE,
+                ModBlocks.BLACK_QUARTZ_BLOCK,
+                ModBlocks.BLACK_QUARTZ_STAIRS,
+                ModBlocks.BLACK_QUARTZ_SLAB,
+                ModBlocks.BLACK_QUARTZ_PILLAR,
+                ModBlocks.BLACK_QUARTZ_BRICKS,
+                ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK,
+                ModBlocks.SMOOTH_BLACK_QUARTZ,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB,
                 ModBlocks.NICKEL_ORE,
                 ModBlocks.RAW_NICKEL_BLOCK);
 

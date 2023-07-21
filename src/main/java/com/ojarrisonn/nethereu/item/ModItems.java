@@ -44,27 +44,47 @@ public class ModItems {
         entries.add(ModBlocks.NICKEL_BLOCK);
 
         entries.add(ModBlocks.BLACK_QUARTZ_BLOCK);
+        entries.add(ModBlocks.BLACK_QUARTZ_STAIRS);
+        entries.add(ModBlocks.BLACK_QUARTZ_SLAB);
         entries.add(ModBlocks.BLACK_QUARTZ_PILLAR);
         entries.add(ModBlocks.SMOOTH_BLACK_QUARTZ);
+        entries.add(ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS);
+        entries.add(ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
         entries.add(ModBlocks.BLACK_QUARTZ_BRICKS);
         entries.add(ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK);
 
         entries.add(ModBlocks.MARBLE);
+        entries.add(ModBlocks.MARBLE_STAIRS);
+        entries.add(ModBlocks.MARBLE_SLAB);
+        entries.add(ModBlocks.MARBLE_WALL);
         entries.add(ModBlocks.POLISHED_MARBLE);
+        entries.add(ModBlocks.POLISHED_MARBLE_STAIRS);
+        entries.add(ModBlocks.POLISHED_MARBLE_SLAB);
 
         entries.add(ModBlocks.SOUL_STONE);
+        entries.add(ModBlocks.SOUL_STONE_STAIRS);
+        entries.add(ModBlocks.SOUL_STONE_SLAB);
+        entries.add(ModBlocks.SOUL_STONE_WALL);
 
         entries.add(ModBlocks.BLAZING_STEM);
         entries.add(ModBlocks.STRIPPED_BLAZING_STEM);
         entries.add(ModBlocks.BLAZING_HYPHAE);
         entries.add(ModBlocks.STRIPPED_BLAZING_HYPHAE);
+
         entries.add(ModBlocks.BLAZING_PLANKS);
+        entries.add(ModBlocks.BLAZING_STAIRS);
+        entries.add(ModBlocks.BLAZING_SLAB);
+        entries.add(ModBlocks.BLAZING_FENCE);
     }
 
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.MARBLE);
+        entries.add(ModBlocks.SOUL_STONE);
+
         entries.add(ModBlocks.BLAZING_NYLIUM);
         entries.add(ModBlocks.BLAZING_WART_BLOCK);
         entries.add(ModBlocks.BLAZING_FUNGUS);
+        entries.add(ModBlocks.BLAZING_ROOTS);
         entries.add(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
         entries.add(ModBlocks.BLAZING_STEM);
 

@@ -1,7 +1,13 @@
-// 1.20.1	2023-07-20T14:33:20.8074667	Nether EU/Tags for minecraft:item
+// 1.20.1	2023-07-20T22:39:29.0472909	Nether EU/Tags for minecraft:item
 f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\nethereu\tags\items\blazing_stems.json
+6e72fb572d04e85055eaede9accb7109cb8a1528 data\minecraft\tags\items\wooden_slabs.json
+898461e2f1e169ffc9470c7cc9c69ff4bf7b933f data\minecraft\tags\items\wooden_stairs.json
 dd55c70a309c17ffea0c1e75f19e8c2899b9fb90 data\c\tags\items\nickel_blocks.json
+898461e2f1e169ffc9470c7cc9c69ff4bf7b933f data\minecraft\tags\items\stairs.json
+a1ed5bf672bcdee4fd3e69d4e405739b09c27d52 data\minecraft\tags\items\wooden_fences.json
+a1ed5bf672bcdee4fd3e69d4e405739b09c27d52 data\minecraft\tags\items\fences.json
 54626453e0532f80b25be316e431a3977ecb3f2b data\minecraft\tags\items\piglin_loved.json
+6e72fb572d04e85055eaede9accb7109cb8a1528 data\minecraft\tags\items\slabs.json
 87b4dfdac877aab8227fa1d7371bbbc6c54c7fa2 data\c\tags\items\ruby_ores.json
 d6f8ae7749801c6526c66005772a2012e57c6274 data\c\tags\items\ruby_blocks.json
 3012565617ec5401417f1379390f326440e18a68 data\c\tags\items\nickel_ores.json

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "nethereu:block/polished_marble",
+    "side": "nethereu:block/polished_marble",
+    "top": "nethereu:block/polished_marble"
+  }
+}

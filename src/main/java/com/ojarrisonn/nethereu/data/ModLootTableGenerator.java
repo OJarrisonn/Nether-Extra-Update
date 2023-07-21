@@ -32,26 +32,46 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NICKEL_BLOCK);
 
         addDrop(ModBlocks.BLAZING_WART_BLOCK);
+
         addDrop(ModBlocks.BLAZING_FUNGUS);
         addDrop(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
+        addDrop(ModBlocks.BLAZING_ROOTS);
+
         addDrop(ModBlocks.BLAZING_HYPHAE);
         addDrop(ModBlocks.STRIPPED_BLAZING_HYPHAE);
         addDrop(ModBlocks.BLAZING_STEM);
         addDrop(ModBlocks.STRIPPED_BLAZING_STEM);
+
         addDrop(ModBlocks.BLAZING_PLANKS);
+        addDrop(ModBlocks.BLAZING_STAIRS);
+        addDrop(ModBlocks.BLAZING_SLAB);
+        addDrop(ModBlocks.BLAZING_FENCE);
 
         addDropWithSilkTouch(ModBlocks.BLAZING_NYLIUM, Blocks.NETHERRACK);
 
         addDrop(ModBlocks.BLACK_QUARTZ_BLOCK);
+        addDrop(ModBlocks.BLACK_QUARTZ_STAIRS);
+        addDrop(ModBlocks.BLACK_QUARTZ_SLAB);
         addDrop(ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK);
         addDrop(ModBlocks.BLACK_QUARTZ_BRICKS);
         addDrop(ModBlocks.BLACK_QUARTZ_PILLAR);
         addDrop(ModBlocks.SMOOTH_BLACK_QUARTZ);
+        addDrop(ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS);
+        addDrop(ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
 
         addDrop(ModBlocks.MARBLE);
+        addDrop(ModBlocks.MARBLE_STAIRS);
+        addDrop(ModBlocks.MARBLE_SLAB);
+        addDrop(ModBlocks.MARBLE_WALL);
+
         addDrop(ModBlocks.POLISHED_MARBLE);
+        addDrop(ModBlocks.POLISHED_MARBLE_STAIRS);
+        addDrop(ModBlocks.POLISHED_MARBLE_SLAB);
 
         addDrop(ModBlocks.SOUL_STONE);
+        addDrop(ModBlocks.SOUL_STONE_SLAB);
+        addDrop(ModBlocks.SOUL_STONE_STAIRS);
+        addDrop(ModBlocks.SOUL_STONE_WALL);
 
 
     }

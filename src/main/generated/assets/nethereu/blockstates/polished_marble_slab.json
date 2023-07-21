@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nethereu:block/polished_marble_slab"
+    },
+    "type=double": {
+      "model": "nethereu:block/polished_marble"
+    },
+    "type=top": {
+      "model": "nethereu:block/polished_marble_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nethereu:block/black_quartz_slab"
+    },
+    "type=double": {
+      "model": "nethereu:block/black_quartz_block"
+    },
+    "type=top": {
+      "model": "nethereu:block/black_quartz_slab_top"
+    }
+  }
+}

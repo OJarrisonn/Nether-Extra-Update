@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nethereu:block/blazing_slab"
+    },
+    "type=double": {
+      "model": "nethereu:block/blazing_planks"
+    },
+    "type=top": {
+      "model": "nethereu:block/blazing_slab_top"
+    }
+  }
+}

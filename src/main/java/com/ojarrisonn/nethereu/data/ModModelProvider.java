@@ -22,25 +22,47 @@ public class ModModelProvider extends FabricModelProvider {
         generator.registerCubeAllModelTexturePool(ModBlocks.NICKEL_BLOCK);
         generator.registerCubeAllModelTexturePool(ModBlocks.RAW_NICKEL_BLOCK);
 
-        generator.registerCubeAllModelTexturePool(ModBlocks.BLAZING_WART_BLOCK);
-        generator.registerCubeAllModelTexturePool(ModBlocks.BLAZING_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool blazing_planks = generator.registerCubeAllModelTexturePool(ModBlocks.BLAZING_PLANKS);
+        blazing_planks.stairs(ModBlocks.BLAZING_STAIRS);
+        blazing_planks.slab(ModBlocks.BLAZING_SLAB);
+        blazing_planks.fence(ModBlocks.BLAZING_FENCE);
+
         generator.registerLog(ModBlocks.BLAZING_STEM).log(ModBlocks.BLAZING_STEM).wood(ModBlocks.BLAZING_HYPHAE);
         generator.registerLog(ModBlocks.STRIPPED_BLAZING_STEM).log(ModBlocks.STRIPPED_BLAZING_STEM).wood(ModBlocks.STRIPPED_BLAZING_HYPHAE);
 
         generator.registerNetherrackBottomCustomTop(ModBlocks.BLAZING_NYLIUM);
+
+
+        generator.registerCubeAllModelTexturePool(ModBlocks.BLAZING_WART_BLOCK);
         generator.registerTintableCross(ModBlocks.BLAZING_FUNGUS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        generator.registerTintableCross(ModBlocks.BLAZING_ROOTS, BlockStateModelGenerator.TintType.NOT_TINTED);
         generator.registerTintableCross(ModBlocks.INCANDESCENT_BLAZING_FUNGUS, BlockStateModelGenerator.TintType.NOT_TINTED);
 
-        generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool black_quartz_block = generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_BLOCK);
+        black_quartz_block.stairs(ModBlocks.BLACK_QUARTZ_STAIRS);
+        black_quartz_block.slab(ModBlocks.BLACK_QUARTZ_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool smooth_black_quartz = generator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_BLACK_QUARTZ);
+        smooth_black_quartz.stairs(ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS);
+        smooth_black_quartz.slab(ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
+
         generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_BRICKS);
-        generator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_BLACK_QUARTZ);
         generator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK);
         generator.registerLog(ModBlocks.BLACK_QUARTZ_PILLAR).log(ModBlocks.BLACK_QUARTZ_PILLAR);
 
-        generator.registerCubeAllModelTexturePool(ModBlocks.SOUL_STONE);
+        BlockStateModelGenerator.BlockTexturePool soul_stone = generator.registerCubeAllModelTexturePool(ModBlocks.SOUL_STONE);
+        soul_stone.stairs(ModBlocks.SOUL_STONE_STAIRS);
+        soul_stone.slab(ModBlocks.SOUL_STONE_SLAB);
+        soul_stone.wall(ModBlocks.SOUL_STONE_WALL);
 
-        generator.registerCubeAllModelTexturePool(ModBlocks.MARBLE);
-        generator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_MARBLE);
+        BlockStateModelGenerator.BlockTexturePool marble = generator.registerCubeAllModelTexturePool(ModBlocks.MARBLE);
+        marble.stairs(ModBlocks.MARBLE_STAIRS);
+        marble.slab(ModBlocks.MARBLE_SLAB);
+        marble.wall(ModBlocks.MARBLE_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool polished_marble = generator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_MARBLE);
+        polished_marble.stairs(ModBlocks.POLISHED_MARBLE_STAIRS);
+        polished_marble.slab(ModBlocks.POLISHED_MARBLE_SLAB);
     }
 
     @Override

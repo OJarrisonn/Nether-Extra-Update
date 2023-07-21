@@ -35,6 +35,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 ModBlocks.STRIPPED_BLAZING_HYPHAE,
                 ModBlocks.STRIPPED_BLAZING_STEM);
 
+        addItemsToTag(ItemTags.WOODEN_SLABS, ModBlocks.BLAZING_SLAB);
+        addItemsToTag(ItemTags.SLABS, ModBlocks.BLAZING_SLAB);
+        addItemsToTag(ItemTags.WOODEN_STAIRS, ModBlocks.BLAZING_STAIRS);
+        addItemsToTag(ItemTags.STAIRS, ModBlocks.BLAZING_STAIRS);
+        addItemsToTag(ItemTags.WOODEN_FENCES, ModBlocks.BLAZING_FENCE);
+        addItemsToTag(ItemTags.FENCES, ModBlocks.BLAZING_FENCE);
+
         addItemsToTag(ModItemTags.GEMS, ModItems.RUBY);
         addItemsToTag(ModItemTags.RUBIES, ModItems.RUBY);
         addItemsToTag(ModItemTags.RUBY_ORES, ModBlocks.RUBY_ORE);
