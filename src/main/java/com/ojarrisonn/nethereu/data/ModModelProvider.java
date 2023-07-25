@@ -1,6 +1,7 @@
 package com.ojarrisonn.nethereu.data;
 
 import com.ojarrisonn.nethereu.block.ModBlocks;
+import com.ojarrisonn.nethereu.block.WarpedBerryBushBlock;
 import com.ojarrisonn.nethereu.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -70,6 +71,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polished_marble = generator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_MARBLE);
         polished_marble.stairs(ModBlocks.POLISHED_MARBLE_STAIRS);
         polished_marble.slab(ModBlocks.POLISHED_MARBLE_SLAB);
+
+        generator.registerTintableCrossBlockStateWithStages(ModBlocks.WARPED_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, WarpedBerryBushBlock.AGE, 0, 1, 2);
     }
 
     @Override

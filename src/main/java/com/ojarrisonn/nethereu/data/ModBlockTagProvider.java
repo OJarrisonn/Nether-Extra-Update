@@ -110,12 +110,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.RUBY_BLOCK,
                 ModBlocks.RUBY_ORE);
 
+        addBlocksToTag(BlockTags.HOGLIN_REPELLENTS,
+                ModBlocks.WARPED_BERRY_BUSH);
+
+        addBlocksToTag(BlockTags.PIGLIN_REPELLENTS,
+                ModBlocks.WARPED_BERRY_BUSH);
+
         getOrCreateTagBuilder(BlockTags.LOGS)
                 .addTag(ModBlockTags.BLAZING_STEMS);
 
         getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
                 .addTag(ModBlockTags.NICKEL_BLOCKS)
                 .addTag(ModBlockTags.RUBY_BLOCKS);
+
     }
 
     private void addBlocksToTag(TagKey<Block> tag, Block... blocks) {

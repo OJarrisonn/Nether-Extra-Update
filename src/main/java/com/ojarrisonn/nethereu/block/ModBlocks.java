@@ -92,6 +92,8 @@ public class ModBlocks {
 
     // TODO: Non-full blocks (, fence gate, door, trapdoor)
 
+    public static final Block WARPED_BERRY_BUSH = registerBlock("warped_berry_bush", new WarpedBerryBushBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH)));
+
 
 
     // Helper functions ================================================================================================

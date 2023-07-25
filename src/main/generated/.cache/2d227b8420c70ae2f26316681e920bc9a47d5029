@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-25T08:07:13.6939387	Nether EU/Model Definitions
+// 1.20.1	2023-07-25T10:24:16.5639886	Nether EU/Model Definitions
 f414a84722de0e55bcebd74756cfc79a2fa0fe18 assets\nethereu\models\block\marble_wall_inventory.json
 805c11b90fe3c96f1e881afeb1a62ff68a2fad74 assets\nethereu\models\block\blazing_stairs_outer.json
 92a569ea5e3b895a977830542b7e95bd1c82ab55 assets\nethereu\models\block\blazing_fence_side.json
@@ -102,8 +102,8 @@ bce9d84a99a4faccacdf5cede69424a9348b11e5 assets\nethereu\models\item\nickel_bloc
 947ade7d4709c3c4a4712d28ef279776eda13d26 assets\nethereu\models\item\incandescent_blazing_fungus.json
 01fb4be0c4be22dfbaaf7b06bf97c38d65f7aae5 assets\nethereu\blockstates\polished_marble_stairs.json
 e71851a28927ef446b0017639968ed4f655be437 assets\nethereu\blockstates\soul_stone_brick_wall.json
-fccb6aec59624741a1c03b751ad59c0478af0637 assets\nethereu\models\block\soul_stone_brick_slab.json
 96a6b7935cd035187becd3a4788fe6c93ad7b047 assets\nethereu\models\block\blazing_roots.json
+fccb6aec59624741a1c03b751ad59c0478af0637 assets\nethereu\models\block\soul_stone_brick_slab.json
 9841ba13570579618d867b1d68966fa23058fa7f assets\nethereu\models\block\black_quartz_stairs_outer.json
 2bbcb8ea22f855d365a4b716ce002042707487d2 assets\nethereu\blockstates\soul_stone_brick_slab.json
 e59185e88d6514182582a3e7309fe4e602e5fb67 assets\nethereu\models\item\blazing_stairs.json
@@ -150,8 +150,8 @@ ca2c6baf6c6612c8080cf1193128f2c772d93160 assets\nethereu\models\item\stripped_bl
 6051af579aaebb189e0db836f60d5a9a5117da1d assets\nethereu\models\block\ruby_block.json
 c554552084c801e6c30634ca3521e8fdddc33191 assets\nethereu\models\block\marble_stairs_outer.json
 492a7f998cd3f5d6558babc4517027efc54c9fde assets\nethereu\models\block\polished_marble.json
-433a0ddbdc8878e6b78ae16801401b2c1ed0d423 assets\nethereu\blockstates\nickel_block.json
 8ab9b7fb3018373c4e51eed717e8c3e64debb01d assets\nethereu\blockstates\black_quartz_pillar.json
+433a0ddbdc8878e6b78ae16801401b2c1ed0d423 assets\nethereu\blockstates\nickel_block.json
 a6c086de212b44f947257d09496fbacc696989d8 assets\nethereu\models\block\nickel_block.json
 b539b6121b2ae0d5ba0599698536d41566d32531 assets\nethereu\blockstates\chiseled_black_quartz_block.json
 613cf355a650ef49ef176f0a1a8a27edad212360 assets\nethereu\blockstates\smooth_black_quartz.json

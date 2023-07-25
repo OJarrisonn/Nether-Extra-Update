@@ -19,7 +19,7 @@ public class ModItems {
     public static final Item NICKEL_NUGGET = registerItem("nickel_nugget", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item TOTEM_OF_PIGLIN_SOUL = registerItem("totem_of_piglin_soul", new TotemOfPiglinSoul(new FabricItemSettings().maxCount(1)));
-    public static final Item WARPED_BERRIES = registerItem("warped_berries", new Item(new FabricItemSettings().food(FoodComponents.SWEET_BERRIES)));
+    public static final Item WARPED_BERRIES = registerItem("warped_berries", new AliasedBlockItem(ModBlocks.WARPED_BERRY_BUSH, new FabricItemSettings().food(FoodComponents.SWEET_BERRIES)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SOUL_BLAZE_ROD);
@@ -92,6 +92,7 @@ public class ModItems {
         entries.add(ModBlocks.BLAZING_ROOTS);
         entries.add(ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
         entries.add(ModBlocks.BLAZING_STEM);
+        entries.add(ModBlocks.WARPED_BERRY_BUSH);
 
         entries.add(ModBlocks.BLACK_QUARTZ_ORE);
         entries.add(ModBlocks.NICKEL_ORE);
