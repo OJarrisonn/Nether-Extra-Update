@@ -16,8 +16,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator generator) {
         generator.registerCubeAllModelTexturePool(ModBlocks.BLACK_QUARTZ_ORE);
+
         generator.registerCubeAllModelTexturePool(ModBlocks.RUBY_ORE);
         generator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
+
         generator.registerCubeAllModelTexturePool(ModBlocks.NICKEL_ORE);
         generator.registerCubeAllModelTexturePool(ModBlocks.NICKEL_BLOCK);
         generator.registerCubeAllModelTexturePool(ModBlocks.RAW_NICKEL_BLOCK);
@@ -54,6 +56,11 @@ public class ModModelProvider extends FabricModelProvider {
         soul_stone.stairs(ModBlocks.SOUL_STONE_STAIRS);
         soul_stone.slab(ModBlocks.SOUL_STONE_SLAB);
         soul_stone.wall(ModBlocks.SOUL_STONE_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool soul_stone_bricks = generator.registerCubeAllModelTexturePool(ModBlocks.SOUL_STONE_BRICKS);
+        soul_stone_bricks.stairs(ModBlocks.SOUL_STONE_BRICK_STAIRS);
+        soul_stone_bricks.slab(ModBlocks.SOUL_STONE_BRICK_SLAB);
+        soul_stone_bricks.wall(ModBlocks.SOUL_STONE_BRICK_WALL);
 
         BlockStateModelGenerator.BlockTexturePool marble = generator.registerCubeAllModelTexturePool(ModBlocks.MARBLE);
         marble.stairs(ModBlocks.MARBLE_STAIRS);

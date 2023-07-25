@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "nethereu:marble_wall",
+    "nethereu:soul_stone_wall",
+    "nethereu:soul_stone_brick_wall"
+  ]
+}

@@ -66,6 +66,11 @@ public class ModItems {
         entries.add(ModBlocks.SOUL_STONE_SLAB);
         entries.add(ModBlocks.SOUL_STONE_WALL);
 
+        entries.add(ModBlocks.SOUL_STONE_BRICKS);
+        entries.add(ModBlocks.SOUL_STONE_BRICK_STAIRS);
+        entries.add(ModBlocks.SOUL_STONE_BRICK_SLAB);
+        entries.add(ModBlocks.SOUL_STONE_BRICK_WALL);
+
         entries.add(ModBlocks.BLAZING_STEM);
         entries.add(ModBlocks.STRIPPED_BLAZING_STEM);
         entries.add(ModBlocks.BLAZING_HYPHAE);

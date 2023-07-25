@@ -9,22 +9,56 @@
   "item.nethereu.totem_of_piglin_soul": "Totem of Piglin Soul",
   "item.nethereu.warped_berries": "Warped Berries",
 
+
+
   "block.nethereu.ruby_block": "Block of Ruby",
+  "block.nethereu.ruby_ore": "Ruby Ore",
   "block.nethereu.nickel_block": "Block of Nickel",
+  "block.nethereu.nickel_ore": "Nickel Ore",
+
+  "block.nethereu.black_quartz_ore": "Black Quartz Ore",
   "block.nethereu.black_quartz_block": "Black Quartz Block",
-  "block.nethereu.black_quartz_pillar": "Black Quartz Pillar",
+  "block.nethereu.black_quartz_stairs": "Black Quartz Stairs",
+  "block.nethereu.black_quartz_slab": "Black Quartz Slab",
+
   "block.nethereu.smooth_black_quartz": "Smooth Black Quartz",
+  "block.nethereu.smooth_black_quartz_stairs": "Smooth Black Quartz Stairs",
+  "block.nethereu.smooth_black_quartz_slab": "Smooth Black Quartz Slab",
+
   "block.nethereu.black_quartz_bricks": "Black Quartz Bricks",
   "block.nethereu.chiseled_black_quartz_block": "Chiseled Black Quartz Block",
+  "block.nethereu.black_quartz_pillar": "Black Quartz Pillar",
+
   "block.nethereu.marble": "Marble",
+  "block.nethereu.marble_stairs": "Marble Stairs",
+  "block.nethereu.marble_slab": "Marble Slab",
+  "block.nethereu.marble_wall": "Marble Wall",
+
   "block.nethereu.polished_marble": "Polished Marble",
+  "block.nethereu.polished_marble_stairs": "Polished Stairs",
+  "block.nethereu.polished_marble_slab": "Polished Slab",
+
   "block.nethereu.blazing_fungus": "Blazing Fungus",
-  "block.nethereu.blazing_wart_block": "Blazing Wart Block",
+  "block.nethereu.incandescent_blazing_fungus": "Incandescent Blazing Fungus",
+  "block.nethereu.blazing_roots": "Blazing Roots",
+
   "block.nethereu.blazing_nylium": "Blazing Nylium",
-  "block.nethereu.blazing_hyphae": "Blazing Hyphae",
   "block.nethereu.blazing_stem": "Blazing Stem",
-  "block.nethereu.stripped_blazing_hyphae": "Stripped Blazing Hyphae",
+  "block.nethereu.blazing_hyphae": "Blazing Hyphae",
   "block.nethereu.stripped_blazing_stem": "Stripped Blazing Stem",
+  "block.nethereu.stripped_blazing_hyphae": "Stripped Blazing Hyphae",
+  "block.nethereu.blazing_wart_block": "Blazing Wart Block",
+
   "block.nethereu.blazing_planks": "Blazing Planks",
-  "block.nethereu.soul_stone": "Soul Stone"
+  "block.nethereu.blazing_stairs": "Blazing Stairs",
+  "block.nethereu.blazing_slab": "Blazing Slab",
+  "block.nethereu.blazing_fence": "Blazing Fence",
+
+  "block.nethereu.soul_stone": "Soul Stone",
+  "block.nethereu.soul_stone_stairs": "Soul Stone Stairs",
+  "block.nethereu.soul_stone_slab": "Soul Stone Slab",
+
+  "block.nethereu.soul_stone_bricks": "Soul Stone Bricks",
+  "block.nethereu.soul_stone_brick_stairs": "Soul Stone Brick Stairs",
+  "block.nethereu.soul_stone_brick_slab": "Soul Stone Brick Slab"
 }

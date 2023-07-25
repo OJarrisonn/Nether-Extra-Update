@@ -67,7 +67,10 @@ public class ModBlocks {
     public static final Block SOUL_STONE_SLAB = registerBlock("soul_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(SOUL_STONE)));
     public static final Block SOUL_STONE_WALL = registerBlock("soul_stone_wall", new WallBlock(FabricBlockSettings.copyOf(SOUL_STONE)));
 
-
+    public static final Block SOUL_STONE_BRICKS = registerBlock("soul_stone_bricks", new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).mapColor(MapColor.BROWN)));
+    public static final Block SOUL_STONE_BRICK_STAIRS = registerBlock("soul_stone_brick_stairs", new StairsBlock(SOUL_STONE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(SOUL_STONE)));
+    public static final Block SOUL_STONE_BRICK_SLAB = registerBlock("soul_stone_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(SOUL_STONE_BRICKS)));
+    public static final Block SOUL_STONE_BRICK_WALL = registerBlock("soul_stone_brick_wall", new WallBlock(FabricBlockSettings.copyOf(SOUL_STONE_BRICKS)));
 
     // Blazing wood set ================================================================================================
     public static final Block BLAZING_NYLIUM = registerBlock("blazing_nylium", new NyliumBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_NYLIUM).mapColor(MapColor.ORANGE)));

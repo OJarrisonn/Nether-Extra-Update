@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "nethereu:block/blazing_stem_top",
-    "side": "nethereu:block/blazing_stem"
-  }
-}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nethereu:block/soul_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "nethereu:block/soul_stone_bricks"
+    },
+    "type=top": {
+      "model": "nethereu:block/soul_stone_brick_slab_top"
+    }
+  }
+}

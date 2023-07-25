@@ -58,6 +58,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.MARBLE,
                 ModBlocks.SOUL_STONE);
 
+        addBlocksToTag(BlockTags.WALLS,
+                ModBlocks.MARBLE_WALL,
+                ModBlocks.SOUL_STONE_WALL,
+                ModBlocks.SOUL_STONE_BRICK_WALL);
+
         addBlocksToTag(BlockTags.SOUL_FIRE_BASE_BLOCKS, ModBlocks.SOUL_STONE);
         addBlocksToTag(BlockTags.SOUL_SPEED_BLOCKS, ModBlocks.SOUL_STONE);
 

@@ -1,6 +1,7 @@
-// 1.20.1	2023-07-20T22:39:29.0482926	Nether EU/Tags for minecraft:block
+// 1.20.1	2023-07-25T08:07:13.6907227	Nether EU/Tags for minecraft:block
 d982a0bec5897969df03ef33cd03cdcc467dcc16 data\minecraft\tags\blocks\replaceable.json
 3012565617ec5401417f1379390f326440e18a68 data\c\tags\blocks\nickel_ores.json
+b5e0542ed2502669ce6a016a5cc911ec9c888bcc data\minecraft\tags\blocks\walls.json
 d6f8ae7749801c6526c66005772a2012e57c6274 data\c\tags\blocks\ruby_blocks.json
 4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\blocks\logs.json
 a032974b16122c8641f141439d0ef50a5041dc78 data\minecraft\tags\blocks\needs_stone_tool.json
