@@ -57,8 +57,10 @@
   "block.nethereu.soul_stone": "Soul Stone",
   "block.nethereu.soul_stone_stairs": "Soul Stone Stairs",
   "block.nethereu.soul_stone_slab": "Soul Stone Slab",
+  "block.nethereu.soul_stone_wall": "Soul Stone Wall",
 
   "block.nethereu.soul_stone_bricks": "Soul Stone Bricks",
   "block.nethereu.soul_stone_brick_stairs": "Soul Stone Brick Stairs",
-  "block.nethereu.soul_stone_brick_slab": "Soul Stone Brick Slab"
+  "block.nethereu.soul_stone_brick_slab": "Soul Stone Brick Slab",
+  "block.nethereu.soul_stone_brick_wall": "Soul Stone Brick Wall"
 }
