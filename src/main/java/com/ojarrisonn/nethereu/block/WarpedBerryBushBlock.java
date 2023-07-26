@@ -3,6 +3,7 @@ package com.ojarrisonn.nethereu.block;
 import com.ojarrisonn.nethereu.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -16,12 +17,18 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
 public class WarpedBerryBushBlock extends SweetBerryBushBlock {
     public WarpedBerryBushBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.getBlock() == Blocks.WARPED_NYLIUM;
     }
 
     @Override

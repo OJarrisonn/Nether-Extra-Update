@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "soul_stone_brick_stairs",
+  "key": {
+    "#": {
+      "item": "nethereu:soul_stone_bricks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "nethereu:soul_stone_brick_stairs"
+  },
+  "show_notification": true
+}

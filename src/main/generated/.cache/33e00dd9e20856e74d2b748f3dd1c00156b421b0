@@ -1,20 +1,24 @@
-// 1.20.1	2023-07-25T10:24:16.560988	Nether EU/Tags for minecraft:item
+// 1.20.1	2023-07-26T14:31:26.2139095	Nether EU/Tags for minecraft:item
+b5e0542ed2502669ce6a016a5cc911ec9c888bcc data\minecraft\tags\items\walls.json
 f03d3f24089bbdc98249d9b00c0d89b7ca2ba62c data\nethereu\tags\items\blazing_stems.json
 6e72fb572d04e85055eaede9accb7109cb8a1528 data\minecraft\tags\items\wooden_slabs.json
 898461e2f1e169ffc9470c7cc9c69ff4bf7b933f data\minecraft\tags\items\wooden_stairs.json
 dd55c70a309c17ffea0c1e75f19e8c2899b9fb90 data\c\tags\items\nickel_blocks.json
-898461e2f1e169ffc9470c7cc9c69ff4bf7b933f data\minecraft\tags\items\stairs.json
+2c9f543270f082d006862517e5ef678450bcb2a4 data\minecraft\tags\items\stairs.json
 a1ed5bf672bcdee4fd3e69d4e405739b09c27d52 data\minecraft\tags\items\wooden_fences.json
 a1ed5bf672bcdee4fd3e69d4e405739b09c27d52 data\minecraft\tags\items\fences.json
+cbea3abc207c74aa7f30ce47cc7bdb33ef09f370 data\minecraft\tags\items\slabs.json
 54626453e0532f80b25be316e431a3977ecb3f2b data\minecraft\tags\items\piglin_loved.json
-6e72fb572d04e85055eaede9accb7109cb8a1528 data\minecraft\tags\items\slabs.json
 87b4dfdac877aab8227fa1d7371bbbc6c54c7fa2 data\c\tags\items\ruby_ores.json
+06a6d8d777818f406ce6a3aa2b570781417ba692 data\minecraft\tags\items\planks.json
 d6f8ae7749801c6526c66005772a2012e57c6274 data\c\tags\items\ruby_blocks.json
 3012565617ec5401417f1379390f326440e18a68 data\c\tags\items\nickel_ores.json
 ff3ab00cd0d9594a0d7637e4a07e0c8c5c0a794a data\c\tags\items\gems.json
 7fdbe16a5f08ece42d8a8ac1eaad368aff7b9903 data\c\tags\items\nickel_nuggets.json
 ff3ab00cd0d9594a0d7637e4a07e0c8c5c0a794a data\c\tags\items\rubies.json
 6ba04d2a791b7b19d8b43d618768b2e58b8bcafe data\c\tags\items\raw_nickel_ores.json
+5c698598faabeb4f6e558b4b20174e1e3bf8afd4 data\minecraft\tags\items\smelts_to_glass.json
 96da79cdaeeaa7b0ecdb804759f7275754e06a1e data\c\tags\items\nickel_ingots.json
 4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\items\logs.json
+b6f45329fa52f4226ab1547059ce733fb0fbe40c data\minecraft\tags\items\stone_bricks.json
 4aaafb387d5a913a4567e3496f360c2e43516dea data\minecraft\tags\items\non_flammable_wood.json

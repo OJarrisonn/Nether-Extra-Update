@@ -2,6 +2,7 @@ package com.ojarrisonn.nethereu;
 
 import com.ojarrisonn.nethereu.data.*;
 import com.ojarrisonn.nethereu.world.ModConfiguredFeatures;
+import com.ojarrisonn.nethereu.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -23,5 +24,6 @@ public class NetherEUModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

@@ -72,7 +72,7 @@ public class ModModelProvider extends FabricModelProvider {
         polished_marble.stairs(ModBlocks.POLISHED_MARBLE_STAIRS);
         polished_marble.slab(ModBlocks.POLISHED_MARBLE_SLAB);
 
-        generator.registerTintableCrossBlockStateWithStages(ModBlocks.WARPED_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, WarpedBerryBushBlock.AGE, 0, 1, 2);
+        generator.registerTintableCrossBlockStateWithStages(ModBlocks.WARPED_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, WarpedBerryBushBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override
@@ -85,7 +85,7 @@ public class ModModelProvider extends FabricModelProvider {
         generator.register(ModItems.SOUL_BLAZE_POWDER, Models.GENERATED);
         generator.register(ModItems.TOTEM_OF_PIGLIN_SOUL, Models.GENERATED);
         generator.register(ModItems.RUBY, Models.GENERATED);
-        generator.register(ModItems.WARPED_BERRIES, Models.GENERATED);
+        //generator.register(ModItems.WARPED_BERRIES, Models.GENERATED);
 
     }
 }

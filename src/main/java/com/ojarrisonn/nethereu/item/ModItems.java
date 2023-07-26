@@ -97,6 +97,8 @@ public class ModItems {
         entries.add(ModBlocks.BLACK_QUARTZ_ORE);
         entries.add(ModBlocks.NICKEL_ORE);
         entries.add(ModBlocks.RUBY_ORE);
+
+        entries.add(ModBlocks.RAW_NICKEL_BLOCK);
     }
 
     private static Item registerItem(String name, Item item) {

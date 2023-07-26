@@ -8,7 +8,9 @@ import net.minecraft.client.render.RenderLayer;
 public class NetherEUModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLAZING_FUNGUS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.INCANDESCENT_BLAZING_FUNGUS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+                ModBlocks.BLAZING_FUNGUS,
+                ModBlocks.INCANDESCENT_BLAZING_FUNGUS,
+                ModBlocks.WARPED_BERRY_BUSH);
     }
 }

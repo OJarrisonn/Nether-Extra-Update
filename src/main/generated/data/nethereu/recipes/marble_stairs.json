@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "marble_stairs",
+  "key": {
+    "#": {
+      "item": "nethereu:marble"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "nethereu:marble_stairs"
+  },
+  "show_notification": true
+}

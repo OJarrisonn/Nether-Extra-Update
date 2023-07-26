@@ -7,6 +7,7 @@ import com.ojarrisonn.nethereu.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.registry.RegistryWrapper;
@@ -35,12 +36,41 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 ModBlocks.STRIPPED_BLAZING_HYPHAE,
                 ModBlocks.STRIPPED_BLAZING_STEM);
 
+        addItemsToTag(ItemTags.PLANKS, ModBlocks.BLAZING_PLANKS);
         addItemsToTag(ItemTags.WOODEN_SLABS, ModBlocks.BLAZING_SLAB);
         addItemsToTag(ItemTags.SLABS, ModBlocks.BLAZING_SLAB);
         addItemsToTag(ItemTags.WOODEN_STAIRS, ModBlocks.BLAZING_STAIRS);
         addItemsToTag(ItemTags.STAIRS, ModBlocks.BLAZING_STAIRS);
         addItemsToTag(ItemTags.WOODEN_FENCES, ModBlocks.BLAZING_FENCE);
         addItemsToTag(ItemTags.FENCES, ModBlocks.BLAZING_FENCE);
+
+
+        addItemsToTag(ItemTags.WALLS,
+                ModBlocks.MARBLE_WALL,
+                ModBlocks.SOUL_STONE_WALL,
+                ModBlocks.SOUL_STONE_BRICK_WALL);
+
+        addItemsToTag(ItemTags.STONE_BRICKS,
+                ModBlocks.SOUL_STONE_BRICKS);
+
+        addItemsToTag(ItemTags.STAIRS,
+                ModBlocks.SOUL_STONE_STAIRS,
+                ModBlocks.SOUL_STONE_BRICK_STAIRS,
+                ModBlocks.BLACK_QUARTZ_STAIRS,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
+                ModBlocks.MARBLE_STAIRS,
+                ModBlocks.POLISHED_MARBLE_STAIRS);
+
+        addItemsToTag(ItemTags.SLABS,
+                ModBlocks.SOUL_STONE_SLAB,
+                ModBlocks.SOUL_STONE_BRICK_SLAB,
+                ModBlocks.BLACK_QUARTZ_SLAB,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB,
+                ModBlocks.MARBLE_SLAB,
+                ModBlocks.POLISHED_MARBLE_SLAB);
+
+        addItemsToTag(ItemTags.SMELTS_TO_GLASS,
+                Blocks.SOUL_SAND);
 
         addItemsToTag(ModItemTags.GEMS, ModItems.RUBY);
         addItemsToTag(ModItemTags.RUBIES, ModItems.RUBY);

@@ -13,6 +13,7 @@
 
   "block.nethereu.ruby_block": "Block of Ruby",
   "block.nethereu.ruby_ore": "Ruby Ore",
+  "block.nethereu.raw_nickel_block": "Raw Nickel Block",
   "block.nethereu.nickel_block": "Block of Nickel",
   "block.nethereu.nickel_ore": "Nickel Ore",
 
@@ -35,8 +36,8 @@
   "block.nethereu.marble_wall": "Marble Wall",
 
   "block.nethereu.polished_marble": "Polished Marble",
-  "block.nethereu.polished_marble_stairs": "Polished Stairs",
-  "block.nethereu.polished_marble_slab": "Polished Slab",
+  "block.nethereu.polished_marble_stairs": "Polished Marble Stairs",
+  "block.nethereu.polished_marble_slab": "Polished Marble Slab",
 
   "block.nethereu.blazing_fungus": "Blazing Fungus",
   "block.nethereu.incandescent_blazing_fungus": "Incandescent Blazing Fungus",
@@ -62,5 +63,7 @@
   "block.nethereu.soul_stone_bricks": "Soul Stone Bricks",
   "block.nethereu.soul_stone_brick_stairs": "Soul Stone Brick Stairs",
   "block.nethereu.soul_stone_brick_slab": "Soul Stone Brick Slab",
-  "block.nethereu.soul_stone_brick_wall": "Soul Stone Brick Wall"
+  "block.nethereu.soul_stone_brick_wall": "Soul Stone Brick Wall",
+
+  "block.nethereu.warped_berry_bush": "Warped Berry Bush"
 }

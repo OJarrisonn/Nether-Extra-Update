@@ -5,6 +5,7 @@ import com.ojarrisonn.nethereu.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
@@ -63,35 +64,75 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.SOUL_STONE_WALL,
                 ModBlocks.SOUL_STONE_BRICK_WALL);
 
-        addBlocksToTag(BlockTags.SOUL_FIRE_BASE_BLOCKS, ModBlocks.SOUL_STONE);
-        addBlocksToTag(BlockTags.SOUL_SPEED_BLOCKS, ModBlocks.SOUL_STONE);
+        addBlocksToTag(BlockTags.STONE_BRICKS,
+                ModBlocks.SOUL_STONE_BRICKS);
+
+        addBlocksToTag(BlockTags.STAIRS,
+                ModBlocks.SOUL_STONE_STAIRS,
+                ModBlocks.SOUL_STONE_BRICK_STAIRS,
+                ModBlocks.BLACK_QUARTZ_STAIRS,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
+                ModBlocks.MARBLE_STAIRS,
+                ModBlocks.POLISHED_MARBLE_STAIRS);
+
+        addBlocksToTag(BlockTags.SLABS,
+                ModBlocks.SOUL_STONE_SLAB,
+                ModBlocks.SOUL_STONE_BRICK_SLAB,
+                ModBlocks.BLACK_QUARTZ_SLAB,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB,
+                ModBlocks.MARBLE_SLAB,
+                ModBlocks.POLISHED_MARBLE_SLAB);
+
+        addBlocksToTag(BlockTags.SMELTS_TO_GLASS,
+                Blocks.SOUL_SAND);
+
+        addBlocksToTag(BlockTags.SOUL_FIRE_BASE_BLOCKS,
+                ModBlocks.SOUL_STONE,
+                ModBlocks.SOUL_STONE_WALL,
+                ModBlocks.SOUL_STONE_STAIRS,
+                ModBlocks.SOUL_STONE_SLAB,
+                ModBlocks.SOUL_STONE_BRICKS,
+                ModBlocks.SOUL_STONE_BRICK_STAIRS,
+                ModBlocks.SOUL_STONE_BRICK_SLAB,
+                ModBlocks.SOUL_STONE_BRICK_WALL);
+
+        addBlocksToTag(BlockTags.SOUL_SPEED_BLOCKS,
+                ModBlocks.SOUL_STONE,
+                ModBlocks.SOUL_STONE_WALL,
+                ModBlocks.SOUL_STONE_STAIRS,
+                ModBlocks.SOUL_STONE_SLAB,
+                ModBlocks.SOUL_STONE_BRICKS,
+                ModBlocks.SOUL_STONE_BRICK_STAIRS,
+                ModBlocks.SOUL_STONE_BRICK_SLAB,
+                ModBlocks.SOUL_STONE_BRICK_WALL);
 
         addBlocksToTag(BlockTags.PICKAXE_MINEABLE,
                 ModBlocks.NICKEL_BLOCK,
                 ModBlocks.NICKEL_ORE,
                 ModBlocks.RAW_NICKEL_BLOCK,
+
                 ModBlocks.RUBY_BLOCK,
                 ModBlocks.RUBY_ORE,
+
                 ModBlocks.SOUL_STONE,
                 ModBlocks.SOUL_STONE_STAIRS,
                 ModBlocks.SOUL_STONE_SLAB,
+                ModBlocks.SOUL_STONE_WALL,
+
+                ModBlocks.SOUL_STONE_BRICKS,
+                ModBlocks.SOUL_STONE_BRICK_STAIRS,
+                ModBlocks.SOUL_STONE_BRICK_SLAB,
+                ModBlocks.SOUL_STONE_BRICK_WALL,
+
                 ModBlocks.MARBLE,
                 ModBlocks.MARBLE_STAIRS,
                 ModBlocks.MARBLE_SLAB,
                 ModBlocks.MARBLE_WALL,
+
                 ModBlocks.POLISHED_MARBLE,
                 ModBlocks.POLISHED_MARBLE_STAIRS,
                 ModBlocks.POLISHED_MARBLE_SLAB,
-                ModBlocks.BLACK_QUARTZ_ORE,
-                ModBlocks.BLACK_QUARTZ_BLOCK,
-                ModBlocks.BLACK_QUARTZ_PILLAR,
-                ModBlocks.BLACK_QUARTZ_BRICKS,
-                ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK,
-                ModBlocks.SMOOTH_BLACK_QUARTZ,
-                ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
-                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
 
-        addBlocksToTag(BlockTags.NEEDS_STONE_TOOL,
                 ModBlocks.BLACK_QUARTZ_ORE,
                 ModBlocks.BLACK_QUARTZ_BLOCK,
                 ModBlocks.BLACK_QUARTZ_STAIRS,
@@ -99,9 +140,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.BLACK_QUARTZ_PILLAR,
                 ModBlocks.BLACK_QUARTZ_BRICKS,
                 ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK,
+
                 ModBlocks.SMOOTH_BLACK_QUARTZ,
                 ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
-                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB,
+                ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
+
+        addBlocksToTag(BlockTags.HOE_MINEABLE,
+                ModBlocks.WARPED_BERRY_BUSH);
+
+        addBlocksToTag(BlockTags.NEEDS_STONE_TOOL,
                 ModBlocks.NICKEL_ORE,
                 ModBlocks.RAW_NICKEL_BLOCK);
 

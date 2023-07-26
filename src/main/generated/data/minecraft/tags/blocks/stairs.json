@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "nethereu:blazing_stairs"
+    "nethereu:blazing_stairs",
+    "nethereu:soul_stone_stairs",
+    "nethereu:soul_stone_brick_stairs",
+    "nethereu:black_quartz_stairs",
+    "nethereu:smooth_black_quartz_stairs",
+    "nethereu:marble_stairs",
+    "nethereu:polished_marble_stairs"
   ]
 }

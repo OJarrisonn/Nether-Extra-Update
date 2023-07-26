@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "nethereu:soul_stone"
+    "nethereu:soul_stone",
+    "nethereu:soul_stone_wall",
+    "nethereu:soul_stone_stairs",
+    "nethereu:soul_stone_slab",
+    "nethereu:soul_stone_bricks",
+    "nethereu:soul_stone_brick_stairs",
+    "nethereu:soul_stone_brick_slab",
+    "nethereu:soul_stone_brick_wall"
   ]
 }

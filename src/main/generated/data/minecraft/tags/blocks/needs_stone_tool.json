@@ -1,16 +1,6 @@
 {
   "replace": false,
   "values": [
-    "nethereu:black_quartz_ore",
-    "nethereu:black_quartz_block",
-    "nethereu:black_quartz_stairs",
-    "nethereu:black_quartz_slab",
-    "nethereu:black_quartz_pillar",
-    "nethereu:black_quartz_bricks",
-    "nethereu:chiseled_black_quartz_block",
-    "nethereu:smooth_black_quartz",
-    "nethereu:smooth_black_quartz_stairs",
-    "nethereu:smooth_black_quartz_slab",
     "nethereu:nickel_ore",
     "nethereu:raw_nickel_block"
   ]

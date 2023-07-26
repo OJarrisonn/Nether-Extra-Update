@@ -78,6 +78,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SOUL_STONE_BRICK_STAIRS);
         addDrop(ModBlocks.SOUL_STONE_BRICK_WALL);
 
+
     }
 
     public LootTable.Builder blackQuartzOreDrops(Block drop) {

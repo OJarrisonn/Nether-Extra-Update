@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "black_quartz",
+  "ingredient": {
+    "item": "nethereu:black_quartz_ore"
+  },
+  "result": "nethereu:black_quartz"
+}

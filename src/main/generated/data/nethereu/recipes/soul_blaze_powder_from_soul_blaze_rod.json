@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "soul_blaze_powder",
+  "ingredients": [
+    {
+      "item": "nethereu:soul_blaze_rod"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "nethereu:soul_blaze_powder"
+  }
+}

@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "nethereu:blazing_slab"
+    "nethereu:blazing_slab",
+    "nethereu:soul_stone_slab",
+    "nethereu:soul_stone_brick_slab",
+    "nethereu:black_quartz_slab",
+    "nethereu:smooth_black_quartz_slab",
+    "nethereu:marble_slab",
+    "nethereu:polished_marble_slab"
   ]
 }

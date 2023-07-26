@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-25T10:24:16.5459907	Nether EU/Block Loot Tables
+// 1.20.1	2023-07-26T14:31:26.2069123	Nether EU/Block Loot Tables
 e578cc2b598b23de306990b3f0d55f0b129c7541 data\nethereu\loot_tables\blocks\blazing_fence.json
 657706e18710c4c511e7591160619ac9a67ac964 data\nethereu\loot_tables\blocks\smooth_black_quartz.json
 e8f5a88b28159a03ca61202f6053e22414b5ef00 data\nethereu\loot_tables\blocks\soul_stone_bricks.json
@@ -13,10 +13,10 @@ c913af240d21b59162414ba66620f3453e02cfa4 data\nethereu\loot_tables\blocks\ruby_b
 e1fcd48258c7d0143c56c903ee992c297bd08c06 data\nethereu\loot_tables\blocks\marble_wall.json
 5cc8df78135cb9a7e27d18cf15d5bf165f8caf7d data\nethereu\loot_tables\blocks\stripped_blazing_stem.json
 fb580c0e63b4297836c2c9ae376acbafdbca5827 data\nethereu\loot_tables\blocks\raw_nickel_block.json
+73913b833869af4dcf8c1c4a73193c4082dac011 data\nethereu\loot_tables\blocks\black_quartz_slab.json
 77563e93d4c04d7fff94ff54514910ca14cecf38 data\nethereu\loot_tables\blocks\blazing_nylium.json
 e6e2cd5fb21f029face0c3c07af4a490c8845c65 data\nethereu\loot_tables\blocks\chiseled_black_quartz_block.json
 f8fb90ac7ca28fb129f79649236daf936908c3d3 data\nethereu\loot_tables\blocks\soul_stone_brick_wall.json
-73913b833869af4dcf8c1c4a73193c4082dac011 data\nethereu\loot_tables\blocks\black_quartz_slab.json
 55fbd45bfe22416af83496682943ca429213f924 data\nethereu\loot_tables\blocks\blazing_roots.json
 41c31e9ad50aa2d86e588cd405ddbf882fe649a9 data\nethereu\loot_tables\blocks\blazing_stairs.json
 6d80f8baa39eb890fd3c495e33f50cd916e08ec3 data\nethereu\loot_tables\blocks\blazing_fungus.json

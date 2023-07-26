@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "blazing_planks",
+  "ingredients": [
+    {
+      "tag": "nethereu:blazing_stems"
+    }
+  ],
+  "result": {
+    "item": "nethereu:blazing_planks"
+  }
+}
