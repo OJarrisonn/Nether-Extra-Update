@@ -14,7 +14,7 @@
 
 ## Blocks
 
-- [-]  **Blazing tree set**:
+- [ ]  **Blazing tree set**:
   A fungi tree similar to crimson and warped trees.
   Stem, wood, planks, wart, vegetation
 - [x]  **Soulstone set**:
@@ -29,15 +29,15 @@
 
 ## Items
 
-- [-]  **Totem of Piglin Soul**:
+- [ ]  **Totem of Piglin Soul**:
   Makes nearby piglin peaceful when on inventory
 - [ ]  **Autosmelt Enchented Book**:
   Every mined block is dropped in it’s smelted version
 - [x]  **Warped Berry**:
   A berry dropped from Warped Berry Bush
-- [-]  **Soul Blaze Rod**:
+- [ ]  **Soul Blaze Rod**:
   A rod similar to Blaze Rod, but hotter
-- [-]  **Soul Blaze Powder**:
+- [ ]  **Soul Blaze Powder**:
   A rod similar to Blaze Powder, but hotter
 - [x]  **Black Quartz**:
   The black version of Quartz

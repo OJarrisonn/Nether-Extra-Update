@@ -21,6 +21,9 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
+/**
+ * The definition the Warped Berry Bush Block which can be found in Warped Forests in Nether
+ * */
 public class WarpedBerryBushBlock extends SweetBerryBushBlock {
     public WarpedBerryBushBlock(Settings settings) {
         super(settings);

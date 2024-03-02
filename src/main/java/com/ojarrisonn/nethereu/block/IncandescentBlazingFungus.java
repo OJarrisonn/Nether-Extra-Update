@@ -16,7 +16,13 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class IncandescentBlazingFungus extends PlantBlock {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 6.0, 14.0);
+    protected static final VoxelShape SHAPE = Block.createCuboidShape(
+            2.0,
+            0.0,
+            2.0,
+            14.0,
+            6.0,
+            14.0);
 
 
     public IncandescentBlazingFungus(Settings settings) {

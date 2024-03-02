@@ -80,6 +80,7 @@ public class ModItems {
         entries.add(ModBlocks.BLAZING_STAIRS);
         entries.add(ModBlocks.BLAZING_SLAB);
         entries.add(ModBlocks.BLAZING_FENCE);
+        entries.add(ModBlocks.BLAZING_FENCE_GATE);
     }
 
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {

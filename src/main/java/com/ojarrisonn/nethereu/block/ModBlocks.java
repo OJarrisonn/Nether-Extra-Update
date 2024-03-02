@@ -88,7 +88,7 @@ public class ModBlocks {
     public static final Block BLAZING_STAIRS = registerBlock("blazing_stairs", new StairsBlock(BLAZING_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.ORANGE)));
     public static final Block BLAZING_SLAB = registerBlock("blazing_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.ORANGE)));
     public static final Block BLAZING_FENCE = registerBlock("blazing_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.ORANGE)));
-    //public static final Block BLAZING_FENCE_GATE = registerBlock("blazing_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.ORANGE)));
+    public static final Block BLAZING_FENCE_GATE = registerBlock("blazing_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_FENCE_GATE).mapColor(MapColor.ORANGE), WoodType.CRIMSON));
 
     // TODO: Non-full blocks (, fence gate, door, trapdoor)
 
@@ -97,16 +97,42 @@ public class ModBlocks {
 
 
     // Helper functions ================================================================================================
+    /**
+     * The same as calling {@link ModBlocks#registerBlock(String, Block, FabricItemSettings)}.
+     * <br>
+     * Sets the settings to null by default. Useful for blocks that doesn't have any special property for its associated <code>Item</code>.
+     * @param name the id of the block
+     * @param block the block object
+     * @return the block object after adding it to the game Registry
+     * */
     private static Block registerBlock(String name, Block block) {
         return registerBlock(name, block, null);
     }
 
+    /**
+     * Adds a block to the game registry
+     * Also receives a {@link FabricItemSettings} object for creating the {@link BlockItem}.
+     * @link
+     * @param name the id of the block
+     * @param block the block object
+     * @param settings the settings object for the associated block's item, may be null
+     * @return the block object after adding it to the game Registry
+     * */
     private static Block registerBlock(String name, Block block, @Nullable FabricItemSettings settings) {
         registerBlockItem(name, block, settings);
 
         return Registry.register(Registries.BLOCK, new Identifier(NetherEUMod.MODID, name), block);
     }
 
+    /**
+     * Adds a block item to the game registry.
+     * Generates a block item from the given block, also may receive an optional {@link FabricItemSettings} object.
+     * If no settings are provided, the default settings are used.
+     * @param name the id of the item (usually, the same id as the block's id)
+     * @param block the block object
+     * @param settings the settings for the item. If null the default settings are applied
+     * @return the item object after adding it to the game registry
+     * */
     private static Item registerBlockItem(String name, Block block, @Nullable FabricItemSettings settings) {
         return Registry.register(
                 Registries.ITEM,
@@ -120,6 +146,9 @@ public class ModBlocks {
         );
     }
 
+    /**
+     * Just triggers the registry of the mod's blocks
+     * */
     public static void registerModBlocks() {
         NetherEUMod.LOGGER.info("Registering Mod Blocks for " + NetherEUMod.MODID);
     }

@@ -2,12 +2,10 @@ package com.ojarrisonn.nethereu.data;
 
 import com.ojarrisonn.nethereu.block.ModBlocks;
 import com.ojarrisonn.nethereu.item.ModItems;
-import com.ojarrisonn.nethereu.tags.ModBlockTags;
 import com.ojarrisonn.nethereu.tags.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.Ingredient;
@@ -72,13 +70,18 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .group("blazing_fence")
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.BLAZING_FENCE)));
 
-        addStairsRecipe(exporter, ModBlocks.BLAZING_STAIRS, ModBlocks.BLAZING_PLANKS);
-        addStairsRecipe(exporter, ModBlocks.MARBLE_STAIRS, ModBlocks.MARBLE);
-        addStairsRecipe(exporter, ModBlocks.POLISHED_MARBLE_STAIRS, ModBlocks.POLISHED_MARBLE);
-        addStairsRecipe(exporter, ModBlocks.SOUL_STONE_STAIRS, ModBlocks.SOUL_STONE);
-        addStairsRecipe(exporter, ModBlocks.SOUL_STONE_BRICK_STAIRS, ModBlocks.SOUL_STONE_BRICKS);
-        addStairsRecipe(exporter, ModBlocks.BLACK_QUARTZ_STAIRS, ModBlocks.BLACK_QUARTZ_BLOCK);
-        addStairsRecipe(exporter, ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS, ModBlocks.SMOOTH_BLACK_QUARTZ);
+        createFenceGateRecipe(ModBlocks.BLAZING_FENCE_GATE, Ingredient.ofItems(ModBlocks.BLAZING_PLANKS))
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.BLAZING_PLANKS), FabricRecipeProvider.conditionsFromItem(ModBlocks.BLAZING_PLANKS))
+                .group("blazing_fence_gate")
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName((ModBlocks.BLAZING_FENCE_GATE))));
+
+        offerStairsRecipe(exporter, ModBlocks.BLAZING_STAIRS, ModBlocks.BLAZING_PLANKS);
+        offerStairsRecipe(exporter, ModBlocks.MARBLE_STAIRS, ModBlocks.MARBLE);
+        offerStairsRecipe(exporter, ModBlocks.POLISHED_MARBLE_STAIRS, ModBlocks.POLISHED_MARBLE);
+        offerStairsRecipe(exporter, ModBlocks.SOUL_STONE_STAIRS, ModBlocks.SOUL_STONE);
+        offerStairsRecipe(exporter, ModBlocks.SOUL_STONE_BRICK_STAIRS, ModBlocks.SOUL_STONE_BRICKS);
+        offerStairsRecipe(exporter, ModBlocks.BLACK_QUARTZ_STAIRS, ModBlocks.BLACK_QUARTZ_BLOCK);
+        offerStairsRecipe(exporter, ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS, ModBlocks.SMOOTH_BLACK_QUARTZ);
 
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_QUARTZ_PILLAR, ModBlocks.BLACK_QUARTZ_BLOCK);
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_BLACK_QUARTZ_BLOCK, ModBlocks.BLACK_QUARTZ_PILLAR);
@@ -86,7 +89,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerShapelessRecipe(exporter, ModItems.SOUL_BLAZE_POWDER, ModItems.SOUL_BLAZE_ROD, "soul_blaze_powder", 2);
     }
 
-    private static void addStairsRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible stairs, ItemConvertible source) {
+    private static void offerStairsRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible stairs, ItemConvertible source) {
         createStairsRecipe(stairs, Ingredient.ofItems(source))
                 .criterion(FabricRecipeProvider.hasItem(source), FabricRecipeProvider.conditionsFromItem(source))
                 .group(FabricRecipeProvider.getItemPath(stairs))

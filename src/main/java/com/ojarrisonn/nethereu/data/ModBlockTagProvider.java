@@ -19,55 +19,55 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        addBlocksToTag(BlockTags.NYLIUM, ModBlocks.BLAZING_NYLIUM);
+        addBlocksToBlockTag(BlockTags.NYLIUM, ModBlocks.BLAZING_NYLIUM);
 
-        addBlocksToTag(ModBlockTags.BLAZING_STEMS,
+        addBlocksToBlockTag(ModBlockTags.BLAZING_STEMS,
                 ModBlocks.BLAZING_STEM,
                 ModBlocks.BLAZING_HYPHAE,
                 ModBlocks.STRIPPED_BLAZING_HYPHAE,
                 ModBlocks.STRIPPED_BLAZING_STEM);
 
-        addBlocksToTag(BlockTags.WART_BLOCKS, ModBlocks.BLAZING_WART_BLOCK);
+        addBlocksToBlockTag(BlockTags.WART_BLOCKS, ModBlocks.BLAZING_WART_BLOCK);
 
-        addBlocksToTag(BlockTags.REPLACEABLE,
+        addBlocksToBlockTag(BlockTags.REPLACEABLE,
                 ModBlocks.INCANDESCENT_BLAZING_FUNGUS,
                 ModBlocks.BLAZING_ROOTS);
 
-        addBlocksToTag(BlockTags.REPLACEABLE_BY_TREES,
+        addBlocksToBlockTag(BlockTags.REPLACEABLE_BY_TREES,
                 ModBlocks.INCANDESCENT_BLAZING_FUNGUS,
                 ModBlocks.BLAZING_ROOTS);
 
-        addBlocksToTag(BlockTags.PLANKS, ModBlocks.BLAZING_PLANKS);
+        addBlocksToBlockTag(BlockTags.PLANKS, ModBlocks.BLAZING_PLANKS);
 
-        addBlocksToTag(BlockTags.WOODEN_SLABS, ModBlocks.BLAZING_SLAB);
-        addBlocksToTag(BlockTags.SLABS, ModBlocks.BLAZING_SLAB);
-        addBlocksToTag(BlockTags.WOODEN_STAIRS, ModBlocks.BLAZING_STAIRS);
-        addBlocksToTag(BlockTags.STAIRS, ModBlocks.BLAZING_STAIRS);
-        addBlocksToTag(BlockTags.WOODEN_FENCES, ModBlocks.BLAZING_FENCE);
-        addBlocksToTag(BlockTags.FENCES, ModBlocks.BLAZING_FENCE);
+        addBlocksToBlockTag(BlockTags.WOODEN_SLABS, ModBlocks.BLAZING_SLAB);
+        addBlocksToBlockTag(BlockTags.SLABS, ModBlocks.BLAZING_SLAB);
+        addBlocksToBlockTag(BlockTags.WOODEN_STAIRS, ModBlocks.BLAZING_STAIRS);
+        addBlocksToBlockTag(BlockTags.STAIRS, ModBlocks.BLAZING_STAIRS);
+        addBlocksToBlockTag(BlockTags.WOODEN_FENCES, ModBlocks.BLAZING_FENCE, ModBlocks.BLAZING_FENCE_GATE);
+        addBlocksToBlockTag(BlockTags.FENCES, ModBlocks.BLAZING_FENCE, ModBlocks.BLAZING_FENCE_GATE);
 
-        addBlocksToTag(BlockTags.PIGLIN_REPELLENTS, ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
+        addBlocksToBlockTag(BlockTags.PIGLIN_REPELLENTS, ModBlocks.INCANDESCENT_BLAZING_FUNGUS);
 
-        addBlocksToTag(ModBlockTags.NICKEL_ORES, ModBlocks.NICKEL_ORE);
-        addBlocksToTag(ModBlockTags.NICKEL_BLOCKS, ModBlocks.NICKEL_BLOCK);
-        addBlocksToTag(ModBlockTags.RAW_NICKEL_BLOCKS, ModBlocks.RAW_NICKEL_BLOCK);
+        addBlocksToBlockTag(ModBlockTags.NICKEL_ORES, ModBlocks.NICKEL_ORE);
+        addBlocksToBlockTag(ModBlockTags.NICKEL_BLOCKS, ModBlocks.NICKEL_BLOCK);
+        addBlocksToBlockTag(ModBlockTags.RAW_NICKEL_BLOCKS, ModBlocks.RAW_NICKEL_BLOCK);
 
-        addBlocksToTag(ModBlockTags.RUBY_ORES, ModBlocks.RUBY_ORE);
-        addBlocksToTag(ModBlockTags.RUBY_BLOCKS, ModBlocks.RUBY_BLOCK);
+        addBlocksToBlockTag(ModBlockTags.RUBY_ORES, ModBlocks.RUBY_ORE);
+        addBlocksToBlockTag(ModBlockTags.RUBY_BLOCKS, ModBlocks.RUBY_BLOCK);
 
-        addBlocksToTag(BlockTags.BASE_STONE_NETHER,
+        addBlocksToBlockTag(BlockTags.BASE_STONE_NETHER,
                 ModBlocks.MARBLE,
                 ModBlocks.SOUL_STONE);
 
-        addBlocksToTag(BlockTags.WALLS,
+        addBlocksToBlockTag(BlockTags.WALLS,
                 ModBlocks.MARBLE_WALL,
                 ModBlocks.SOUL_STONE_WALL,
                 ModBlocks.SOUL_STONE_BRICK_WALL);
 
-        addBlocksToTag(BlockTags.STONE_BRICKS,
+        addBlocksToBlockTag(BlockTags.STONE_BRICKS,
                 ModBlocks.SOUL_STONE_BRICKS);
 
-        addBlocksToTag(BlockTags.STAIRS,
+        addBlocksToBlockTag(BlockTags.STAIRS,
                 ModBlocks.SOUL_STONE_STAIRS,
                 ModBlocks.SOUL_STONE_BRICK_STAIRS,
                 ModBlocks.BLACK_QUARTZ_STAIRS,
@@ -75,7 +75,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.MARBLE_STAIRS,
                 ModBlocks.POLISHED_MARBLE_STAIRS);
 
-        addBlocksToTag(BlockTags.SLABS,
+        addBlocksToBlockTag(BlockTags.SLABS,
                 ModBlocks.SOUL_STONE_SLAB,
                 ModBlocks.SOUL_STONE_BRICK_SLAB,
                 ModBlocks.BLACK_QUARTZ_SLAB,
@@ -83,10 +83,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.MARBLE_SLAB,
                 ModBlocks.POLISHED_MARBLE_SLAB);
 
-        addBlocksToTag(BlockTags.SMELTS_TO_GLASS,
+        addBlocksToBlockTag(BlockTags.SMELTS_TO_GLASS,
                 Blocks.SOUL_SAND);
 
-        addBlocksToTag(BlockTags.SOUL_FIRE_BASE_BLOCKS,
+        addBlocksToBlockTag(BlockTags.SOUL_FIRE_BASE_BLOCKS,
                 ModBlocks.SOUL_STONE,
                 ModBlocks.SOUL_STONE_WALL,
                 ModBlocks.SOUL_STONE_STAIRS,
@@ -96,7 +96,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.SOUL_STONE_BRICK_SLAB,
                 ModBlocks.SOUL_STONE_BRICK_WALL);
 
-        addBlocksToTag(BlockTags.SOUL_SPEED_BLOCKS,
+        addBlocksToBlockTag(BlockTags.SOUL_SPEED_BLOCKS,
                 ModBlocks.SOUL_STONE,
                 ModBlocks.SOUL_STONE_WALL,
                 ModBlocks.SOUL_STONE_STAIRS,
@@ -106,7 +106,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.SOUL_STONE_BRICK_SLAB,
                 ModBlocks.SOUL_STONE_BRICK_WALL);
 
-        addBlocksToTag(BlockTags.PICKAXE_MINEABLE,
+        addBlocksToBlockTag(BlockTags.PICKAXE_MINEABLE,
                 ModBlocks.NICKEL_BLOCK,
                 ModBlocks.NICKEL_ORE,
                 ModBlocks.RAW_NICKEL_BLOCK,
@@ -145,34 +145,43 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ModBlocks.SMOOTH_BLACK_QUARTZ_STAIRS,
                 ModBlocks.SMOOTH_BLACK_QUARTZ_SLAB);
 
-        addBlocksToTag(BlockTags.HOE_MINEABLE,
+        addBlocksToBlockTag(BlockTags.HOE_MINEABLE,
                 ModBlocks.WARPED_BERRY_BUSH);
 
-        addBlocksToTag(BlockTags.NEEDS_STONE_TOOL,
+        addBlocksToBlockTag(BlockTags.NEEDS_STONE_TOOL,
                 ModBlocks.NICKEL_ORE,
                 ModBlocks.RAW_NICKEL_BLOCK);
 
-        addBlocksToTag(BlockTags.NEEDS_IRON_TOOL,
+        addBlocksToBlockTag(BlockTags.NEEDS_IRON_TOOL,
                 ModBlocks.NICKEL_BLOCK,
                 ModBlocks.RUBY_BLOCK,
                 ModBlocks.RUBY_ORE);
 
-        addBlocksToTag(BlockTags.HOGLIN_REPELLENTS,
+        addBlocksToBlockTag(BlockTags.HOGLIN_REPELLENTS,
                 ModBlocks.WARPED_BERRY_BUSH);
 
-        addBlocksToTag(BlockTags.PIGLIN_REPELLENTS,
+        addBlocksToBlockTag(BlockTags.PIGLIN_REPELLENTS,
                 ModBlocks.WARPED_BERRY_BUSH);
 
-        getOrCreateTagBuilder(BlockTags.LOGS)
-                .addTag(ModBlockTags.BLAZING_STEMS);
+        addBlockTagsToBlockTag(BlockTags.LOGS,
+                ModBlockTags.BLAZING_STEMS);
 
-        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
-                .addTag(ModBlockTags.NICKEL_BLOCKS)
-                .addTag(ModBlockTags.RUBY_BLOCKS);
+        addBlockTagsToBlockTag(BlockTags.BEACON_BASE_BLOCKS,
+                ModBlockTags.NICKEL_BLOCKS,
+                ModBlockTags.RUBY_BLOCKS);
 
     }
 
-    private void addBlocksToTag(TagKey<Block> tag, Block... blocks) {
+    private void addBlocksToBlockTag(TagKey<Block> tag, Block... blocks) {
         getOrCreateTagBuilder(tag).add(blocks);
+    }
+
+    @SafeVarargs
+    private void addBlockTagsToBlockTag(TagKey<Block> tag, TagKey<Block>... tags) {
+        FabricTagBuilder builder = getOrCreateTagBuilder(tag);
+
+        for (TagKey<Block> t : tags) {
+            builder.addTag(t);
+        }
     }
 }
